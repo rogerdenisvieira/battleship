@@ -11,7 +11,8 @@ public class Partida {
 		this.tabuleiroPessoa = new Tabuleiro(true);
 		this.tabuleiroCPU = new Tabuleiro(false);
 
-		// cria jogadores
+		// cria jogadores novos
+                
 		this.jogadorPessoa = new Jogador(nomePessoa, this.tabuleiroPessoa);
 		this.jogadorCPU = new Jogador(nomeCPU, tabuleiroCPU);
 		this.captura = new Scanner(System.in);
